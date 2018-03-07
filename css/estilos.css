@@ -1,0 +1,48 @@
+body{
+	background: blue;
+	/*background: rgb(155,155,155);
+	background: rgba(155,155,155,0);
+	background: #0000FF;*/
+	color: white;
+}
+header{
+	border: 1px solid black;
+	text-align: center;
+
+}
+main{
+		margin-top: 15px;
+	}
+footer{
+	 border:1px solid orange;
+	 font-weight: bold; /* negritas	*/
+	 padding: 20px;
+	 text-align: center;
+}
+header nav ul li{
+	background: orange;
+	border: 1px solid black;
+	border-radius: 5px;
+	display: inline-block;
+	/*margin-right: 15px;*/
+	margin: 0px 20px 0px 0px;
+
+	padding: 5px 10px;
+	width: 100px;
+}
+header nav ul li:hover{
+	background: black;
+	border: 1px solid orange;
+	border-radius: 5px;
+	display: inline-block;
+	padding: 5px 10px;
+	width: 90px;
+}
+main section article{
+	border: 1px dashed magenta;
+	display: inline-block;
+	vertical-align: top;
+	width: 33%;
+
+
+}
